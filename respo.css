@@ -1,0 +1,155 @@
+@media (max-width: 888px) {
+    .socialinks a{
+        margin-left: 12rem;
+    }
+    .about pre{
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 4rem;
+        border-radius: 10%;
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 800px) {
+    html{
+        font-size: 55%;
+    }
+    .socialinks a{
+        margin-left: 12rem;
+
+    }
+    .audio audio{
+        width: 20rem;
+    }
+    .audio li{
+        font-size: 20%;
+    }
+
+}  
+
+@media (max-width: 790px) {
+
+    .socialinks a{
+        margin-left: 10rem;
+
+    }
+.contactme{
+    height: 50rem;
+}
+.email form{
+    height: 70rem;
+}
+.email label{
+    font-size: 3.5rem;
+}
+.email input{
+    height: 4rem;
+    width: 54rem;
+}
+#navibreak{
+    margin-top: 15%;
+}
+.socialinks a{
+    margin-left: 11rem;
+    
+}
+.order button{
+    height: 10rem;
+    width: 30rem;
+}
+}
+
+@media (max-width: 750px) {
+    html{
+        font-size: 53%;
+}
+
+@media (max-width: 695px) {
+    .socialinks a{
+        margin-left: 10rem;
+       
+    }
+}
+
+@media (max-width: 650px) {
+    html{
+        font-size: 48%;
+    }
+    .order button{
+        height: 10rem;
+        width: 32rem;
+    }
+}
+}
+
+@media (max-width: 612px) {
+    html{
+        font-size: 45%;
+    }
+    .audio audio{
+        width: 20rem;
+    }
+}
+
+@media (max-width: 570px) {
+    html{
+        font-size: 41%;
+    }
+    .audio audio{
+        width: 25rem;
+    }
+}
+
+@media (max-width: 525px) {
+    html{
+        font-size: 38%;
+    }
+    #navibreak{
+        margin-top: 18%;
+    }
+    .audio audio{
+        width: 30rem;
+    }
+}
+
+@media (max-width: 485px) {
+    html{
+        font-size: 35%;
+    }
+}
+
+@media (max-width: 440px) {
+    html{
+        font-size: 31%;
+    }
+    #navibreak{
+        margin-top: 20%;
+    }
+    .audio audio{
+        width: 30rem;
+    }
+}
+
+@media (max-width: 400px) {
+    html{
+        font-size: 28%;
+    }
+    #navibreak{
+        margin-top: 23%;
+    }
+}
+
+@media (max-width: 350px) {
+    html{
+        font-size: 25%;
+    }
+    #navibreak{
+        margin-top: 25%;
+    }
+    .audio audio{
+        width: 30rem;
+        height: 25rem;
+    }
+}
+    }
