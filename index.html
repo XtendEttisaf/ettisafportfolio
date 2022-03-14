@@ -6,35 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xtend Ettisaf PortFolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="respo.css">
     <script src="https://kit.fontawesome.com/506fd28715.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="audio">
-        <nav>
-            <ul>
+    <div class="introbar">
 
-                <audio controls loop>
-                    <source src="mp3.mp3" type="audio/mp3">
-                </audio>
-                <li><a href="#"> Introduction </a></li>
-                <li><a href="#special">Specialities</a></li>
-                <li><a href="">Qualifications</a></li>
-            </ul>
-        </nav>
+        <a href=""><button class="btn"> HOME </button></a>
+        <a href="#visitcard"><button class="btn"> VISIT CARD </button></a>
+        <a href="http://"><button class="btn"> PROFILES </button></a>
     </div>
 
-<p id="navibreak"></p>
-<center>
-    <div class="head">
-        <p id="break"></p>
-        <center><label> XTEND ETTISAF </label></center>
-        <p id="break"></p>
-        <span> Hey! I'm Xtend Ettisaf </span>
-    </div>
-</center>
+    <p id="navibreak"></p>
+    <center>
+        <div class="head">
+            <p id="break"></p>
+            <center><label> XTEND ETTISAF </label></center>
+            <p id="break"></p>
+            <span> Hey! I'm Xtend Ettisaf </span>
+        </div>
+    </center>
     <p id="break"></p>
     <div class="info">
 
@@ -43,14 +39,21 @@
 
     <div class="about">
         <label style="text-align: center;">
+            <p id="para">
+
+                Hey, I'm Xtend Ettisaf! Also Knowned as Rup.<br>
+                I'm a Web Developer and a Web Designer! <br>
+
+            <p id="break"></p>
+            <p id="break"></p>
+            </p>
+
+            <p id="para">
+                Besides, Enough skills on
+                Streaming, Casting, Video Editing!<br>
+            <p id="brea"></p>
+
             <pre>
-     Hey, I'm Xtend Ettisaf! Also Knowned as Rup.
-          I'm a Web Developer and a Web Designer! 
-
-        Besides, Enough skills on 
-        Streaming, Casting, Video Editing!
-
-
     <i class="fa-solid fa-check"></i> Specialities - 
 
 
@@ -69,9 +72,21 @@
 <i class="fa-solid fa-check"></i>  Trusted & Secure
 
     </label>
-</pre>
+</p>
 
             <div class="order"><button>Order Now!</button></div>
+    </div>
+    <p id="break"></p>
+
+    <div class="skills">
+
+       <a href="https://www.facebook.com/xtend.etti.5/videos/980067189550953"> <label id="html"> This is How Your Facebook/Gmail Account got Hacked</label> </a>
+        <p></p>
+        <a href="http://"><label id="css"> [Articel Coming Soon...]</label></a>
+        <p></p>
+       <a href="https://www.facebook.com/xtend.etti.5/posts/483236373308896?notif_id=1647271817561817&notif_t=feedback_reaction_generic&ref=notif""> <label id="js"> The HTML Programmer </label></a>
+
+
     </div>
     <p id="break"></p>
 
@@ -87,41 +102,56 @@
     <center>
     <div class="email">
         <form>
-            <span>Complain Section</span>
+            <span>Ask a Question</span>
             <p id="complain"></p>
-            <label>Email Address</label>
+            <label>Nickname</label>
             <p></p>
             <input type="email" value="" required>
             <p></p>
-            <label>Email Subject</label>
+            <label>Email Address</label>
             <p></p>
             <input type="text" value="" required>
             <p></p>
-            <label>Email Body</label>
+            <label>Ask your Question</label>
             <p></p>
-            <input type="text" value="" required style="height: 20rem; width: 50rem;">
+            <input type="text" value="" required style="height: 13rem; width: 33rem;">
             <p>
-                <p></p>
+                <p id="break"></p>
             </p>
-
+            <button type="submit" id="submit" onclick="submit()"> Submit Question </button>
 
         </form>
     </div>
 </center>
     <p id="break"></p>
-    <div class="socialhead">
-        <label id="sm"> Join Xtend Arena On Social Medias</label>
-        <p id="break"></p>
-    </div>
     <p id="break"></p>
-    <div class="socialinks">
 
-        <a href="https://www.facebook.com/xtend.etti.5"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://www.messenger.com/t/100048676115015"><i class="fa-brands fa-facebook-messenger"></i></a>
-        <a href="https://discord.gg/RwrJWq9"><i class="fa-brands fa-discord"></i></a>
-        <a href="https://wa.me/+8801731420401"><i class="fa-brands fa-whatsapp"></i></a>
+<div class="collect">
+                <h2>Xtend Ettisaf's Collections </h2>
+                <p id="break"></p>
+                <label> Visit Card </label>
+                <span> - Maded by "Tawhidul Islam Sadik" </span>
+                <p id="break"></p>
+        <img id="visitcard" src="visitcard.png">
+<p id="break"></p>
+        <h2></h2>
+</div>
 
-    </div>
+<p id="break"></p>
+
+<div class="socialhead">
+    <label id="sm"> Join Xtend Arena On Social Medias</label>
+    <p id="break"></p>
+</div>
+<p id="break"></p>
+<div class="socialinks">
+
+    <a href="https://www.facebook.com/xtend.etti.5"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="https://www.messenger.com/t/100048676115015"><i class="fa-brands fa-facebook-messenger"></i></a>
+    <a href="https://discord.gg/RwrJWq9"><i class="fa-brands fa-discord"></i></a>
+    <a href="https://wa.me/+8801731420401"><i class="fa-brands fa-whatsapp"></i></a>
+
+</div>
 <p id="break"></p>
 
 <div class="watermark" id="special">
@@ -135,11 +165,14 @@
 
         </pre>
 
-        <p><i class="fa-solid fa-location-arrow"></i> Graphics are designed by expert graphics designers. Website dataforms will be stored to you directly by our system!</p>
-        <p><i class="fa-solid fa-location-arrow"></i> You Don't need to worry about anything. We won't let you recharge forcefully. You can cancel your package anytime whenever you want!</p>
-        <i class="fas fa-arrow-left"></i>
-        <p style="text-align: right; font-size: 1.5rem;"><i class="fa-solid fa-location-arrow"></i> Xtend Ettisaf, Owner - Xtend Arena.<i class="fas fa-arrow-left" style="color: red; margin-right: 2rem;"></i></p>
-</div>
+            <p><i class="fa-solid fa-location-arrow"></i> Graphics are designed by expert graphics designers. Website
+                dataforms will be stored to you directly by our system!</p>
+            <p><i class="fa-solid fa-location-arrow"></i> You Don't need to worry about anything. We won't let you
+                recharge forcefully. You can cancel your package anytime whenever you want!</p>
+            <i class="fas fa-arrow-left"></i>
+            <p style="text-align: right; font-size: 1.5rem;"><i class="fa-solid fa-location-arrow"></i> Xtend Ettisaf,
+                Owner - Xtend Arena.<i class="fas fa-arrow-left" style="color: red; margin-right: 2rem;"></i></p>
+    </div>
 
     <script src="java.js"></script>
 </body>
