@@ -216,6 +216,12 @@ body{
     
 
 }
+.skills img{
+    margin-top: 5rem;
+    height: 15rem;
+    width: 20rem;
+    border-radius: 5rem;
+}
 .skills a{
     text-decoration: none;
     padding-left: 5rem;
