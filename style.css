@@ -36,11 +36,18 @@ body{
     margin-bottom: 10rem;
 }
 .introbar{
-    margin-top: 4rem;
+    width: 100%;
+    margin-top: -4rem;
     text-align: center;
     justify-content: center;
     align-items: center;
     word-spacing: 4rem;
+    box-shadow: 0 0 2rem rgb(0, 255, 85);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-radius: 2rem;
+    background-color: rgba(2, 172, 164, 0.075);
+    animation: yoyo 2s linear infinite;
 }
 .introbar button{
     font-family: 'Audiowide', sans-serif;
@@ -68,8 +75,7 @@ body{
     width: fit-content;
     display: flex;
     justify-content: center;
-    margin-left: 43%;
-    margin-bottom: -18rem;
+    margin-bottom: -25rem;
    
 }
 .info img{
@@ -114,6 +120,13 @@ body{
 .fa-solid{
     color: rgb(21, 255, 0);
     text-shadow: 0 0 0.7rem white;
+}
+.front{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5rem;
+    box-shadow: 0 0 5rem red;
+    padding-bottom: 10rem;
+    animation: yoyo 2s linear infinite;
 }
 .head span{
     color: white;
