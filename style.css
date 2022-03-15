@@ -37,21 +37,21 @@ body{
 }
 .introbar{
     width: 100%;
-    margin-top: -4rem;
+    margin-top: 4rem;
     text-align: center;
     justify-content: center;
     align-items: center;
     word-spacing: 4rem;
     box-shadow: 0 0 2rem rgb(0, 255, 85);
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border-radius: 2rem;
     background-color: rgba(2, 172, 164, 0.075);
     animation: yoyo 2s linear infinite;
 }
 .introbar button{
     font-family: 'Audiowide', sans-serif;
-    padding: 2rem;
+    padding: 1rem;
     font-size: 2rem;
     border-radius: 20%;
     letter-spacing: 0.2rem;
