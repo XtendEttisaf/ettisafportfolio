@@ -63,6 +63,13 @@
 @media (max-width: 750px) {
     html{
         font-size: 53%;
+    }
+    .introbar button{
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        width: 30rem;
+    }
 }
 
 @media (max-width: 695px) {
@@ -81,14 +88,10 @@
         width: 32rem;
     }
 }
-}
 
 @media (max-width: 612px) {
     html{
         font-size: 45%;
-    }
-    .audio audio{
-        width: 20rem;
     }
 }
 
@@ -96,8 +99,15 @@
     html{
         font-size: 41%;
     }
-    .audio audio{
-        width: 25rem;
+
+    .introbar{
+        display: grid;
+        width: 100%;
+    }
+    .introbar button{
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+        width: 40rem;
     }
 }
 
@@ -152,4 +162,27 @@
         height: 25rem;
     }
 }
+@media (max-width: 320px) {
+    html{
+        font-size: 23%;
     }
+    #navibreak{
+        margin-top: 25%;
+    }
+}
+@media (max-width: 285px) {
+    html{
+        font-size: 20%;
+    }
+    #navibreak{
+        margin-top: 25%;
+    }
+}
+@media (max-width: 250px) {
+    html{
+        font-size: 18%;
+    }
+    #navibreak{
+        margin-top: 25%;
+    }
+}
