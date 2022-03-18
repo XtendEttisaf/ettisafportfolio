@@ -109,6 +109,11 @@
         margin-top: 1rem;
         width: 40rem;
     }
+    .introbar button:hover{
+       background-color: rgb(0, 128, 122);
+       font-size: 3rem;
+       padding: 2rem;
+    }
 }
 
 @media (max-width: 525px) {
@@ -181,6 +186,32 @@
 @media (max-width: 250px) {
     html{
         font-size: 18%;
+    }
+    #navibreak{
+        margin-top: 25%;
+    }
+}
+
+@media (max-width: 227px) {
+    html{
+        font-size: 16%;
+    }
+    #navibreak{
+        margin-top: 25%;
+    }
+
+}
+@media (max-width: 200px) {
+    html{
+        font-size: 14%;
+    }
+    #navibreak{
+        margin-top: 25%;
+    }
+}
+@media (max-width: 175px) {
+    html{
+        font-size: 12%;
     }
     #navibreak{
         margin-top: 25%;

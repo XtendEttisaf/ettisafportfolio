@@ -48,6 +48,7 @@ body{
     border-radius: 2rem;
     background-color: rgba(2, 172, 164, 0.075);
     animation: yoyo 2s linear infinite;
+    animation-direction: alternate;
 }
 .introbar button{
     font-family: 'Audiowide', sans-serif;
@@ -345,6 +346,7 @@ body{
     text-shadow: 0 0 1rem white;
     box-shadow: 0.03rem 0.2rem 0rem white;
     animation: yoyo 2s linear infinite;
+    animation-direction: alternate;
     
     }
     @keyframes yoyo {
@@ -373,6 +375,8 @@ body{
         background-color: rgba(0, 0, 0, 0.7);
         padding-bottom: 3rem;
         box-shadow: 0 0 0.3rem red;
+        margin-bottom: 20rem;
+        height: 70rem;
     }
     .contactme span{
         color: white;
