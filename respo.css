@@ -77,6 +77,23 @@
         margin-left: 10rem;
        
     }
+    .dropmenu{
+        display: grid;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .dropmenu img{
+        margin-left: 12rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .dropmenu button{
+        text-align: center;
+        width: 40rem;
+        margin-bottom: 3rem;
+
+    }
 }
 
 @media (max-width: 650px) {
@@ -120,12 +137,24 @@
     html{
         font-size: 38%;
     }
-    #navibreak{
-        margin-top: 18%;
+    .dropmenu{
+        display: grid;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
-    .audio audio{
-        width: 30rem;
+    .dropmenu img{
+        margin-left: 22rem;
+        justify-content: center;
+        margin-bottom: 2rem;
     }
+    .dropmenu button{
+        text-align: center;
+        width: 50rem;
+        margin-bottom: 3rem;
+
+    }
+
 }
 
 @media (max-width: 485px) {
@@ -173,6 +202,24 @@
     }
     #navibreak{
         margin-top: 25%;
+    }
+    .dropmenu{
+        display: grid;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .dropmenu img{
+        height: 30rem;
+        margin-left: 20rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .dropmenu button{
+        text-align: center;
+        width: 60rem;
+        margin-bottom: 3rem;
+
     }
 }
 @media (max-width: 285px) {

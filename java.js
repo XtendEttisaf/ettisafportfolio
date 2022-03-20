@@ -16,3 +16,44 @@ form.addEventListener("submit", e => {
           });
     });
 });
+
+function personal() {
+     document.getElementById('personal').style.display = 'block';
+     document.getElementById('social').style.display = 'none';
+     document.getElementById('articels').style.display = 'none';
+     document.getElementById('collect').style.display = 'none';
+     document.getElementById('question').style.display = 'none';
+
+}
+function ask() {
+    document.getElementById('question').style.display = 'block';
+    document.getElementById('personal').style.display = 'none';
+     document.getElementById('social').style.display = 'none';
+     document.getElementById('articels').style.display = 'none';
+     document.getElementById('collect').style.display = 'none';
+
+}
+function collect() {
+    document.getElementById('collect').style.display = 'block';
+    document.getElementById('personal').style.display = 'none';
+     document.getElementById('social').style.display = 'none';
+     document.getElementById('articels').style.display = 'none';
+     document.getElementById('question').style.display = 'none';
+
+}
+function articels() {
+    document.getElementById('articels').style.display = 'block';
+    document.getElementById('personal').style.display = 'none';
+     document.getElementById('social').style.display = 'none';
+     document.getElementById('collect').style.display = 'none';
+     document.getElementById('question').style.display = 'none';
+
+}
+function social() {
+    document.getElementById('social').style.display = 'block';
+    document.getElementById('personal').style.display = 'none';
+     document.getElementById('articels').style.display = 'none';
+     document.getElementById('collect').style.display = 'none';
+     document.getElementById('question').style.display = 'none';
+
+}social

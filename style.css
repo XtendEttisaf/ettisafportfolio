@@ -176,8 +176,10 @@ body{
     font-size: 2rem;
     color: white;
     animation: yoyo 2s linear infinite;
+    animation-direction: alternate;
 }
 .socialinks{
+    display: none;
     margin-top: -5rem;
     background-color: rgba(57, 242, 255, 0.171);
     padding: 2rem;
@@ -332,6 +334,18 @@ body{
 .skills p{
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+.contactme{
+    display: none;
+}
+.email{
+    display: none;
+}
+.collect{
+    display: none;
+}
+.skills{
+    display: none;
 }
 .contactme label{
     color: white;
@@ -558,4 +572,66 @@ body{
         height: 30rem;
         margin-bottom: 5rem;
         margin-right: 1rem;
+    }
+
+    .dropmenu{
+        background-color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+        letter-spacing: 1rem;
+        box-shadow: 0 0 3rem rgb(40, 206, 228);
+    }
+    .dropmenu img{
+        margin-top: 1rem;
+        height: 13rem;
+        animation: dropmenu 3s linear infinite;
+        animation-direction: alternate;
+        border-radius: 2rem;
+    }
+    @keyframes dropmenu {
+        0%{
+            border: 0.2rem solid rgb(201, 0, 0);
+            box-shadow: 0 0 1rem rgb(255, 255, 255);
+        }
+        50%{
+            border: 0.2rem solid rgb(0, 255, 13);
+            box-shadow: 0 0 1rem rgb(30, 255, 0);
+        }
+        100%{
+            border: 0.2rem solid rgb(234, 0, 255);
+            box-shadow: 0 0 1rem rgb(255, 0, 255);
+        }
+        
+    }
+    .dropmenu label{
+        animation: yoyo 2s linear infinite alternate;
+        padding: 1rem;
+        color: white;
+        border-radius: 2rem;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+
+    }
+    .dropmenu button{
+        margin: 0.5rem 0.7rem;
+        transition: 0.5s;
+        cursor: pointer;
+        padding: 2rem;
+        border: none;
+        outline: none;
+        border-radius: 2rem;
+        background-color: transparent;
+        border: 0.1rem solid white;
+        box-shadow: 0 0 0.4rem white;
+        color: white;
+        letter-spacing: 0.2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .dropmenu button:hover{
+        border-radius: 2.5rem;
+        background-color: white;
+        border: 0.1rem solid white;
+        box-shadow: 0 0 2rem rgb(0, 255, 221);
+        color: black;
+        letter-spacing: 0.2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
