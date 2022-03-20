@@ -161,6 +161,11 @@
     html{
         font-size: 35%;
     }
+    .front img{
+        height: 30rem;
+        width: 20rem;
+        margin-top: -7rem;
+    }
 }
 
 @media (max-width: 440px) {

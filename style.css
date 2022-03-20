@@ -82,30 +82,9 @@ body{
 .info img{
     height: 15rem;
     width: 10rem;
-    border-radius: 45%;
-    animation: info 2s linear infinite;
-}
-@keyframes info {
-    0%{
-        border: 0.3rem solid magenta;
-        box-shadow: 0 0 2rem red;
-    } 
-    25%{
-        border: 0.3rem solid greenyellow;
-        box-shadow: 0 0 5rem green;
-    }   
-    50%{
-        border: 0.3rem solid red;
-        box-shadow: 0 0 5rem skyblue;
-    }
-    75%{
-        border: 0.3rem solid aqua;
-        box-shadow: 0 0 5rem white;
-    }
-    100%{
-        border: 0.3rem solid blue;
-        box-shadow: 0 0 5rem tomato;
-    }
+    border-radius: 50rem;
+    animation: dropmenu 2s linear infinite;
+    animation-direction: alternate;
 }
 .about label{
     color: white;
